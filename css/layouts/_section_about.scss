@@ -1,5 +1,6 @@
 img {
     max-width: 100%;
+    width: 400px;
     height: auto;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -34,6 +35,7 @@ section .heading {
     margin-top: 20px;
     padding: 18px 50px;
     border-radius: 3px;
+    transition: all .3s ease-in 0s;
 }
 .button1:hover {
     background: #fff;

@@ -1,3 +1,56 @@
+/*ANIMATIONS DES POINTS DE SUSPENSION DES SKILLS
+==============================================================*/
+.spin1 {
+  -webkit-animation: spin_anime 1.2s ease-in-out infinite;
+          animation: spin_anime 1.2s ease-in-out infinite;
+}
+
+.spin2 {
+  -webkit-animation: spin_anime 1.2s 0.2s ease-in-out infinite;
+          animation: spin_anime 1.2s 0.2s ease-in-out infinite;
+}
+
+.spin3 {
+  -webkit-animation: spin_anime 1.2s 0.4s ease-in-out infinite;
+          animation: spin_anime 1.2s 0.4s ease-in-out infinite;
+}
+
+@-webkit-keyframes spin_anime {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(0px);
+            transform: scale(1) translateY(0px);
+  }
+  50% {
+    opacity: 0.6;
+    -webkit-transform: scale(1.2) translateY(-4px);
+            transform: scale(1.2) translateY(-4px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(0px);
+            transform: scale(1) translateY(0px);
+  }
+}
+
+@keyframes spin_anime {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(0px);
+            transform: scale(1) translateY(0px);
+  }
+  50% {
+    opacity: 0.6;
+    -webkit-transform: scale(1.2) translateY(-4px);
+            transform: scale(1.2) translateY(-4px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(0px);
+            transform: scale(1) translateY(0px);
+  }
+}
+
 body {
   font-family: "Lato", sans-serif;
 }
@@ -8,6 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
   max-width: 100%;
+  width: 400px;
   height: auto;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -48,11 +102,30 @@ section .heading {
   margin-top: 20px;
   padding: 18px 50px;
   border-radius: 3px;
+  -webkit-transition: all .3s ease-in 0s;
+  transition: all .3s ease-in 0s;
 }
 
 .button1:hover {
   background: #fff;
   color: #2e51af;
   text-decoration: none;
+}
+
+.heading i {
+  padding-right: 10px;
+}
+
+.spinner-border {
+  width: 1.3rem;
+  height: 1.3rem;
+  -webkit-animation: 3.5s linear infinite spinner-border;
+          animation: 3.5s linear infinite spinner-border;
+}
+
+.spinner-grow {
+  width: .5rem;
+  height: .5rem;
+  margin-left: 5px;
 }
 /*# sourceMappingURL=styles.css.map */

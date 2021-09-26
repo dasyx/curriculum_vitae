@@ -1,0 +1,26 @@
+/*ANIMATIONS DES POINTS DE SUSPENSION DES SKILLS
+==============================================================*/
+.spin1{
+	animation: spin_anime 1.2s ease-in-out infinite; 
+}
+.spin2{
+	animation: spin_anime 1.2s 0.2s ease-in-out infinite;
+}
+.spin3{
+	animation: spin_anime 1.2s 0.4s ease-in-out infinite;
+}
+
+@keyframes spin_anime {
+    0%{
+        opacity: 1; 
+        transform: scale(1) translateY(0px);
+    }
+    50%{
+        opacity: 0.6;
+        transform: scale(1.2) translateY(-4px);
+    }
+    100%{
+        opacity: 1; 
+        transform: scale(1) translateY(0px);
+    }
+}

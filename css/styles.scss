@@ -1,6 +1,8 @@
 @import "./utils/variables";
+@import "./utils/animations";
 
 @import "./base/base";
 @import "./base/typo";
 
-@import "./layouts/section_heading";
+@import "./layouts/section_about";
+@import "./layouts/section_skills";
