@@ -1,6 +1,9 @@
 .heading i {
     padding-right: 10px;
 }
+.d-flex {
+    margin-bottom: 30px;
+}
 .spinner-border {
    width: 1.3rem;
    height: 1.3rem;
@@ -10,4 +13,29 @@
     width: .5rem;
     height: .5rem;
     margin-left: 5px;
+}
+#skills {
+    background: #fff;
+}
+#skills .heading h2 {
+    margin-top: 30px;
+    color: $background_main;
+    text-transform: uppercase;
+}
+#skills .progress {
+    height: 50px;
+    margin: 30px 20px;
+    background: #ddd;
+}
+#skills .progress-bar {
+    background: $background_main;
+}
+#skills .progress h5 {
+    text-shadow: 6px 5px 6px #000;
+}
+.red-divider {
+    width: 100px;
+    height: 2px;
+    background: $background_main;
+    margin: 0 auto;
 }
