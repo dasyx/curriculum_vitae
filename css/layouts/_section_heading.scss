@@ -1,0 +1,42 @@
+img {
+    max-width: 100%;
+    height: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+section .heading {
+    text-align: center;
+    padding-bottom: 40px;
+}
+#about {
+    padding-top: 100px;
+    background: $background_main;
+}
+.profile-picture {
+    text-align: center;
+    margin: 0 auto;
+}
+#about .heading h1 {
+    margin-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+#about .heading h3 {
+    color: #000;
+}
+.button1 {
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+}
+.button1:hover {
+    background: #fff;
+    color: $background_main;
+    text-decoration: none;
+}
