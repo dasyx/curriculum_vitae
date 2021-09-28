@@ -1,5 +1,8 @@
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", "Roboto", sans-serif;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 section {
     padding: 45px 0 40px 0;
