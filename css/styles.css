@@ -132,6 +132,7 @@ section .head_banner {
 }
 
 .d-flex {
+  font-weight: bold;
   margin-bottom: 30px;
 }
 
@@ -224,12 +225,16 @@ section .head_banner {
   text-align: left;
 }
 
-.timeline li,
 .timeline time {
+  color: #2e51af;
+  text-decoration: underline;
+}
+
+.timeline li {
   color: #2e51af;
   list-style-type: none;
   text-align: left;
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 .timeline::before {

@@ -32,12 +32,15 @@
     font-weight: lighter;
     text-align: left;
 }
-.timeline li,
 .timeline time {
+    color: $background-main;
+    text-decoration: underline;
+}
+.timeline li {
     color: $background-main;
     list-style-type: none;
     text-align: left;
-    text-decoration: underline;
+    font-weight: bold;
 }
 .timeline::before {
     content: "";
