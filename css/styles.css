@@ -150,6 +150,7 @@ section .head_banner {
 }
 
 #skills {
+  margin-top: 100px;
   background: #fff;
 }
 
@@ -178,6 +179,10 @@ section .head_banner {
   height: 2px;
   background: #2e51af;
   margin: 0 auto;
+}
+
+#experience {
+  margin-top: 100px;
 }
 
 :focus {
@@ -231,6 +236,7 @@ section .head_banner {
 }
 
 .timeline li {
+  padding: 0px 10px;
   color: #2e51af;
   list-style-type: none;
   text-align: left;
@@ -334,7 +340,7 @@ section .head_banner {
   border-radius: 50%;
 }
 
-.row > * {
+.timeline .row > * {
   padding-right: 0;
   padding-left: 0;
 }
@@ -425,5 +431,30 @@ section .head_banner {
     width: 60px;
     height: 60px;
   }
+}
+
+#portfolio {
+  background: #2e51af;
+}
+
+#portfolio .head_banner h2 {
+  color: #fff;
+}
+
+#portfolio img {
+  margin: 15px 0px;
+}
+
+.white-divider {
+  width: 100px;
+  height: 2px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+#portfolio .head_banner h2 {
+  margin-top: 30px;
+  color: #fff;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=styles.css.map */

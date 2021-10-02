@@ -1,3 +1,6 @@
+#experience {
+    margin-top: 100px;
+}
 :focus {
     outline: 0px solid transparent !important;
 }
@@ -37,6 +40,7 @@
     text-decoration: underline;
 }
 .timeline li {
+    padding: 0px 10px;
     color: $background-main;
     list-style-type: none;
     text-align: left;
@@ -124,7 +128,7 @@
 #exp_responsive img {
     border-radius: 50%;
 }
-.row > * {
+.timeline .row > * {
     padding-right: 0;
     padding-left: 0;
 }
