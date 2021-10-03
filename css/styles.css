@@ -85,7 +85,7 @@ section .head_banner {
 
 .about {
   padding-top: 100px;
-  background: url("../img/backgrounds/lioran_crop.jpg");
+  background: url("../img/background/lioran_crop.jpg");
   background-size: cover;
 }
 
@@ -96,6 +96,8 @@ section .head_banner {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: .8;
+  -webkit-box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.7);
+          box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.7);
 }
 
 .about .head_banner h1 {
@@ -124,7 +126,7 @@ section .head_banner {
   text-transform: uppercase;
   text-decoration: none;
   border: 1px solid #fff;
-  margin-top: 40px;
+  margin-top: 10px;
   padding: 18px 50px;
   border-radius: 3px;
   -webkit-transition: all .3s ease-in 0s;
@@ -133,7 +135,8 @@ section .head_banner {
 
 @media (max-width: 2000px) {
   .button1 {
-    margin-top: 160px;
+    width: 300px;
+    margin-top: 150px;
     margin-bottom: 50px;
     background-color: #fff;
     opacity: .7;

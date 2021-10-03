@@ -14,7 +14,7 @@ section .head_banner {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: .8;
-    box-shadow:  .5rem 1rem rgba($black, .7);
+    box-shadow:  .5rem 1rem rgba(#000, .7);
 }
 .about .head_banner h1 {
     margin-top: 20px;
