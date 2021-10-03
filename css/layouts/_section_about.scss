@@ -2,11 +2,14 @@ section .head_banner {
     text-align: center;
     padding-bottom: 40px;
 }
-.about {
-    padding-top: 100px;
+
+.about, .bg-divider {
     background: url("../img/background/lioran_crop.jpg");
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
+
 .about img {
     max-width: 50%;
     width: 400px;
@@ -14,23 +17,29 @@ section .head_banner {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: .8;
-    box-shadow:  .5rem 1rem rgba(#000, .7);
+    box-shadow: .5rem 1rem rgba(#000, .7);
 }
+
 .about .head_banner h1 {
-    margin-top: 20px;
+    margin-top: 30px;
     color: #fff;
     text-transform: uppercase;
 }
+
 .about .head_banner h3 {
+    margin: 10px 0px;
     color: #fff;
 }
+
 .profile-picture {
     text-align: center;
     margin: 0 auto;
 }
+
 .bg-banniere {
     background-color: $background_main;
 }
+
 .button1 {
     display: inline-block;
     color: #fff;
@@ -38,19 +47,22 @@ section .head_banner {
     text-transform: uppercase;
     text-decoration: none;
     border: 1px solid #fff;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
     padding: 18px 50px;
     border-radius: 3px;
     transition: all .3s ease-in 0s;
+    
     @media (max-width: 2000px) {
         width: 300px;
-        margin-top: 150px;
+        margin-top: 50px;
         margin-bottom: 50px;
-        background-color:#fff;
+        background-color: #fff;
         opacity: .7;
         color: $background_main;
     }
 }
+
 .button1:hover {
     background: #fff;
     color: $background_main;

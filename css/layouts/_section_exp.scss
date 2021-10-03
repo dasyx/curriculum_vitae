@@ -118,7 +118,10 @@
     z-index: 100;
 }
 #exp_responsive {
-    width: 85%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px;
+    background-color:  #ededed;
 }
 #experience .head_banner h2 {
     margin-top: 30px;
@@ -131,6 +134,7 @@
 .timeline .row > * {
     padding-right: 0;
     padding-left: 0;
+    margin-right: 10px;
 }
 
 /*small device style*/

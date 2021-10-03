@@ -1,18 +1,29 @@
 #portfolio {
-    background: $background_main;
+    background: $background_gradient;
 }
+
 #portfolio .head_banner h2 {
     color: #fff;
 }
+
 #portfolio img {
     margin: 15px 0px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+    &:hover {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
 }
+
 .white-divider {
     width: 100px;
     height: 2px;
     background: #fff;
     margin: 0 auto;
 }
+
 #portfolio .head_banner h2 {
     margin-top: 30px;
     color: #fff;
