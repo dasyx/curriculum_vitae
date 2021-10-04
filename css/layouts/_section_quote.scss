@@ -1,8 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 
 blockquote {
+    position: absolute;
     font-size: 1.4em;
-    width: 50%;
+    width: 32%;
     margin: 50px auto;
     font-family: Open Sans;
     font-style: italic;
@@ -10,12 +11,28 @@ blockquote {
     padding: 1.2em 30px 1.2em 75px;
     border-left: 8px solid $background_main;
     line-height: 1.6;
-    position: relative;
     background: #ededed;
     border-radius: 3px;
+    margin-top: 160px;
+    z-index: 1;
+    left: 34%;
 
     @media (max-width: 767px) {
-        width: 100%;
+        position: absolute;
+        font-size: 1em;
+        width: 65%;
+        margin: 50px auto;
+        font-family: Open Sans;
+        font-style: italic;
+        color: #555556;
+        padding: 1.2em 30px 1.2em 75px;
+        border-left: 8px solid #2e51af;
+        line-height: 1.6;
+        background: #ededed;
+        border-radius: 3px;
+        margin-top: 170px;
+        z-index: 1;
+        left: 18%;
     }
 }
 
@@ -41,8 +58,15 @@ blockquote span {
     margin-top: 1em;
 }
 .bg-divider {
-    height: 200px;
+    height: 400px;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: .8;
+}
+/* #display_quote {
+    -webkit-filter: grayscale(0%) !important;
+    filter: grayscale(0%) !important;
+} */
+blockquote {
+    
 }
