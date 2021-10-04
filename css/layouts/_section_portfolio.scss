@@ -8,24 +8,28 @@
 
 #portfolio img {
     margin: 15px 0px;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    box-shadow: 5px -3px 7px 5px #fff;
 
     &:hover {
-        -webkit-filter: grayscale(0%);
-        filter: grayscale(0%);
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
     }
-}
-
-.white-divider {
-    width: 100px;
-    height: 2px;
-    background: #fff;
-    margin: 0 auto;
 }
 
 #portfolio .head_banner h2 {
     margin-top: 30px;
     color: #fff;
     text-transform: uppercase;
+}
+
+.white-divider {
+    width: 100px;
+    height: 2px;
+    background: #bebee3;
+    margin: 0 auto;
+}
+.row {
+    @media screen and (max-width: 576px) {
+        margin-left: 0;
+    }
 }
