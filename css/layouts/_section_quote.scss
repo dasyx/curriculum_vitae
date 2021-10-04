@@ -3,7 +3,7 @@
 blockquote {
     position: absolute;
     font-size: 1.4em;
-    width: 32%;
+    width: 30%;
     margin: 50px auto;
     font-family: Open Sans;
     font-style: italic;
@@ -16,23 +16,35 @@ blockquote {
     margin-top: 160px;
     z-index: 1;
     left: 34%;
-
-    @media (max-width: 767px) {
-        position: absolute;
+    @media screen and (max-width: 449px) {
         font-size: 1em;
         width: 65%;
-        margin: 50px auto;
-        font-family: Open Sans;
-        font-style: italic;
-        color: #555556;
-        padding: 1.2em 30px 1.2em 75px;
-        border-left: 8px solid #2e51af;
-        line-height: 1.6;
-        background: #ededed;
-        border-radius: 3px;
-        margin-top: 170px;
-        z-index: 1;
+        margin-top: 140px;
         left: 18%;
+    }
+    @media screen and (min-width: 450px) and (max-width: 767px) {
+        font-size: 1em;
+        width: 65%;
+        margin-top: 170px;
+        left: 18%;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1400px) {
+        font-size: 1em;
+        width: 40%;
+        margin-top: 170px;
+        left: 30%;
+    }
+    @media screen and (min-width: 1401px) and (max-width: 1800px) {
+        font-size: 1em;
+        width: 35%;
+        margin-top: 170px;
+        left: 32%;
+    }
+    @media screen and (min-width: 2000px) {
+        font-size: 1.2em;
+        width: 25%;
+        margin-top: 170px;
+        left: 38%;
     }
 }
 
