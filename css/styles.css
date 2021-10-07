@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #contact .container h2 {
-  margin: 30px 0px;
+  margin: 50px 0px;
   text-transform: uppercase;
   text-align: center;
   color: #2e51af;
@@ -107,19 +107,54 @@ h1, h2, h3, h4, h5, h6 {
   font-size: xx-large;
 }
 
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2e51af), color-stop(#3055af), color-stop(#3259ae), color-stop(#355cad), color-stop(#3960ac), color-stop(#4968b0), color-stop(#5771b4), color-stop(#6479b8), color-stop(#7c89c3), color-stop(#939acd), color-stop(#a9acd8), to(#bebee3));
+  background: linear-gradient(to bottom, #2e51af, #3055af, #3259ae, #355cad, #3960ac, #4968b0, #5771b4, #6479b8, #7c89c3, #939acd, #a9acd8, #bebee3);
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav .navbar-nav {
+  text-align: center;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navbar li a {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #3855a3 !important;
+  background-color: #fff !important;
+}
+
 section .head_banner {
   text-align: center;
   padding-bottom: 40px;
 }
 
-.about, .bg-divider {
+#about, .bg-divider {
   background: url("../img/background/lioran_crop.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
-.about img {
+#about img {
   max-width: 50%;
   width: 400px;
   height: auto;
@@ -130,13 +165,13 @@ section .head_banner {
           box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.7);
 }
 
-.about .head_banner h1 {
+#about .head_banner h1 {
   margin-top: 30px;
   color: #fff;
   text-transform: uppercase;
 }
 
-.about .head_banner h3 {
+#about .head_banner h3 {
   margin: 10px 0px;
   color: #fff;
 }

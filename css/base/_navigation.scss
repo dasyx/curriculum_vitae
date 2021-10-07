@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    background: $background_gradient;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav .navbar-nav {
+    text-align: center;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar li a {
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #3855a3 !important;
+    background-color: #fff !important;
+}
