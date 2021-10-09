@@ -4,13 +4,14 @@ section .head_banner {
 }
 
 #about, .bg-divider {
-    background: url("../img/background/lioran_crop.jpg");
+    background-image: url("../img/background/lioran_crop.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
 #about img {
+    margin-top: 30px;
     max-width: 50%;
     width: 400px;
     height: auto;
@@ -26,7 +27,7 @@ section .head_banner {
     text-transform: uppercase;
 }
 
-#about .head_banner h3 {
+#about .head_banner h2 {
     margin: 10px 0px;
     color: #fff;
 }

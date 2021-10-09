@@ -1,5 +1,5 @@
 #contact {
-    margin-top: 150px;
+    margin-top: 200px;
     background-color: #ededed;
     box-shadow: 0px -4px 34px -15px #bebee3;
 }
@@ -15,5 +15,12 @@
 .list-unstyled {
     padding-top: 20px;
     text-align: center;
-    font-size: xx-large;
+}
+.list-unstyled span {
+    color: $background_main;
+}
+.list-unstyled p {
+    display: inline;
+    margin-left: 10px;
+    color: lighten($background_main, 20%)
 }

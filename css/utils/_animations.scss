@@ -24,3 +24,47 @@
         transform: scale(1) translateY(0px);
     }
 }
+
+/*ANIMATIONS DU HOVER SUR LINKS FOOTER
+==============================================================*/
+.list-unstyled a {
+    position: relative;
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 300;
+    color: #666;
+    transition: color .2s ease;
+    padding: 3px 0;
+    margin-bottom: 15px;
+    
+    &:hover {
+      color: #aaa;
+       
+      &::after,
+      &::before {
+        width: 100%;
+        left: 0;
+      }
+      
+    }
+    
+    &::after,
+    &::before {
+      content: ''; 
+      position: absolute;
+      top: calc(100% + 5px);
+      width: 0;
+      right: 0;
+      height: 3px;
+    }
+    
+    &::before {
+      transition: width .4s cubic-bezier(0.51, 0.18, 0, 0.88) .1s;
+      background: #2196f3;
+    }
+    
+    &::after {
+      transition: width .2s cubic-bezier(0.29, 0.18, 0.26, 0.83);
+      background: $background_main;
+    }
+  }
