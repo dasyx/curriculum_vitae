@@ -19,13 +19,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js" async></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="20">
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar"
+                    aria-label="menu_header">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
@@ -48,7 +50,8 @@
         <div class="head_banner">
             <h1>David Levast</h1>
             <h2>Développeur Web freelance</h2>
-            <a href="docs/CV_david_levast.pdf" class="btn btn-sm button1">Télécharger le CV</a>
+            <a href="docs/CV_david_levast.pdf" class="btn btn-sm button1" aria-label="téléchargement cv">Télécharger le
+                CV</a>
         </div>
     </section>
     <section class="quote container">
@@ -238,38 +241,51 @@
             </div>
             <div class="row">
                 <div class="col-sm-4">
-                    <a href="https://dasyx.github.io/ohmyfood/" target="_blank">
-                        <img class="img-thumbnail" src="img/ohmyfood.PNG" alt="portfolio david levast ohmyfood">
-                    </a>
+                    <figure class="zoom">
+                        <a href="https://dasyx.github.io/ohmyfood/" target="_blank">
+                            <img class="img-thumbnail" id="test" src="img/ohmyfood.PNG" alt="portfolio david levast ohmyfood">
+                            <p id="text"></p>
+                        </a>
+                    </figure>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://dasyx.github.io/chouette_agence_new/" target="_blank">
-                        <img class="img-thumbnail" src="img/chouette_agence.PNG"
-                            alt="portfolio david levast chouette agence">
-                    </a>
+                    <figure class="zoom">
+                        <a href="https://dasyx.github.io/chouette_agence_new/" target="_blank">
+                            <img class="img-thumbnail" src="img/chouette_agence.PNG"
+                                alt="portfolio david levast chouette agence">
+                        </a>
+                    </figure>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://dasyx.github.io/orinoco/" target="_blank">
-                        <img class="img-thumbnail" src="img/orinoco.PNG" alt="portfolio david levast orinoco">
-                    </a>
+                    <figure class="zoom">
+                        <a href="https://dasyx.github.io/orinoco/" target="_blank">
+                            <img class="img-thumbnail" src="img/orinoco.PNG" alt="portfolio david levast orinoco">
+                        </a>
+                    </figure>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4">
-                    <a href="https://dasyx.github.io/so_peckoko/" target="_blank">
-                        <img class="img-thumbnail" src="img/so_peckoko.PNG" alt="portfolio david levast so_peckoko">
-                    </a>
+                    <figure class="zoom">
+                        <a href="https://dasyx.github.io/so_peckoko/" target="_blank">
+                            <img class="img-thumbnail" src="img/so_peckoko.PNG" alt="portfolio david levast so_peckoko">
+                        </a>
+                    </figure>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://dasyx.github.io/groupomania/" target="_blank">
-                        <img class="img-thumbnail" src="img/groupomania.png" alt="portfolio david levast groupomania">
-                    </a>
+                    <figure class="zoom">
+                        <a href="https://dasyx.github.io/groupomania/" target="_blank">
+                            <img class="img-thumbnail" src="img/groupomania.png" alt="portfolio david levast groupomania">
+                        </a>
+                    </figure>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://dasyx.github.io/projet_web/" target="_blank">
-                        <img class="img-thumbnail" src="img/travel_agency.png"
-                            alt="portfolio david levast travel agency">
-                    </a>
+                    <figure class="zoom">
+                        <a href="https://dasyx.github.io/projet_web/" target="_blank">
+                            <img class="img-thumbnail" src="img/travel_agency.png"
+                                alt="portfolio david levast travel agency">
+                        </a>
+                    </figure>
                 </div>
             </div>
         </div>
@@ -286,7 +302,9 @@
                         <li>
                             <a class="text-decoration-none" href="https://www.linkedin.com/in/david-levast-9553881aa"
                                 target="_blank">
-                                <span class="bi bi-linkedin"><p>Linkedin</p></span>
+                                <span class="bi bi-linkedin">
+                                    <p>Linkedin</p>
+                                </span>
                             </a>
                         </li>
                     </ul>
@@ -295,7 +313,9 @@
                     <ul class="list-unstyled">
                         <li>
                             <a class="text-decoration-none" href="https://twitter.com/davidlevast27" target="_blank">
-                                <span class="bi bi-twitter"><p>Twitter</p></span>
+                                <span class="bi bi-twitter">
+                                    <p>Twitter</p>
+                                </span>
                             </a>
                         </li>
                     </ul>
@@ -304,7 +324,9 @@
                     <ul class="list-unstyled">
                         <li>
                             <a class="text-decoration-none" href="mailto:david.levast27@gmail.com" target="_blank">
-                                <span class="bi bi-mailbox"><p>Email</p></span>
+                                <span class="bi bi-mailbox">
+                                    <p>Email</p>
+                                </span>
                             </a>
                         </li>
                     </ul>
