@@ -12,7 +12,7 @@
     background: #fff;
     overflow: hidden;
     margin: 30px 0px;
-    box-shadow: 5px -3px 7px 5px #fff;
+    /* box-shadow: 5px -3px 7px 5px #fff; */
 
     &:hover {
         -webkit-filter: grayscale(100%);
@@ -43,10 +43,14 @@
         margin-left: 0;
     }
 }
-
 #text {
+    bottom: 70px;
+}
+#text2 {
+    bottom: 20px;
+}
+#text, #text2 {
     position: absolute;
-    bottom: 0;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
     /* Black see-through */
@@ -59,11 +63,16 @@
     padding: 20px;
     text-align: center;
 }
-
+.zoom {
+    display: flex;
+    flex-direction: column;
+}
 .zoom:hover #text {
     opacity: 1;
 }
-
+.zoom:hover #text2 {
+    opacity: 1;
+}
 img:hover {
     filter: blur(2px);
     -webkit-filter: blur(2px);

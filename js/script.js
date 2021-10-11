@@ -2,10 +2,14 @@
 
 let overlay = document.getElementById('test');
 let figcap = document.getElementById('text');
+let figcap2 = document.getElementById('text2');
 
 overlay.addEventListener('mouseover', function () {
     figcap.textContent = "text de test"
+    figcap2.textContent = "text de test2"
 })
 overlay.addEventListener('mouseout', function () {
     figcap.textContent = ""
+    figcap2.textContent = ""
+    //display.style.visibility = "hidden";
 })
