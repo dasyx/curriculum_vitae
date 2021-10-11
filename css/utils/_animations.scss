@@ -72,13 +72,13 @@
 /*ANIMATIONS DU HOVER SUR IMAGES PORTFOLIO
 ==============================================================*/
 
-#portfolio a img {
+#portfolio .img-thumbnail {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
-#portfolio a:hover img {
+#portfolio .img-thumbnail:hover {
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);
 }
