@@ -1,7 +1,8 @@
 // Ecoute de l'événement passage de souris pour afficher l'overlay sur les images du portfolio
 
 let overlay = document.getElementById('test');
-//let display = document.getElementById('position');
+let displayTop = document.getElementById('overlay_top');
+let displayBottom = document.getElementById('overlay_bottom');
 let figcap = document.getElementById('text');
 let figcap2 = document.getElementById('text2');
 let figcap_text = document.getElementById('text_icon');
