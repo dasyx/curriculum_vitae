@@ -767,6 +767,14 @@ img:hover {
   transition: .5s ease;
 }
 
+@media screen and (max-width: 576px) {
+  #overlay_top,
+  #overlay_bottom {
+    width: 200px;
+    height: 100px;
+  }
+}
+
 #overlay_top {
   top: 25%;
   left: 50%;

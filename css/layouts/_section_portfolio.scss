@@ -60,6 +60,10 @@ img:hover {
     opacity: 0;
     transform: translate(-50%, -50%);
     transition: .5s ease;
+    @media screen and (max-width: 576px) {
+        width: 200px;
+        height: 100px;
+    }
 }
 #overlay_top {
     top: 25%;
