@@ -767,11 +767,11 @@ img:hover {
   transition: .5s ease;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 425px) {
   #overlay_top,
   #overlay_bottom {
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
   }
 }
 
