@@ -1,5 +1,6 @@
 #portfolio {
-    background: $background_gradient;
+    background: linear-gradient(to top, #b1d0f5, #96C2FA);
+    margin-top: 40px;
 }
 
 #portfolio .head_banner h2 {
@@ -27,15 +28,8 @@
 
 #portfolio .head_banner h2 {
     margin-top: 30px;
-    color: #fff;
+    color: $background_main;
     text-transform: uppercase;
-}
-
-.white-divider {
-    width: 100px;
-    height: 2px;
-    background: #bebee3;
-    margin: 0 auto;
 }
 
 .row {

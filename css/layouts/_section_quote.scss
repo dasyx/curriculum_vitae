@@ -16,30 +16,35 @@ blockquote {
     margin-top: 160px;
     z-index: 1;
     left: 34%;
+
     @media screen and (max-width: 449px) {
         font-size: 1em;
         width: 65%;
         margin-top: 140px;
         left: 18%;
     }
+
     @media screen and (min-width: 450px) and (max-width: 767px) {
         font-size: 1em;
         width: 65%;
         margin-top: 170px;
         left: 18%;
     }
+
     @media screen and (min-width: 768px) and (max-width: 1400px) {
         font-size: 1em;
         width: 40%;
         margin-top: 170px;
         left: 30%;
     }
+
     @media screen and (min-width: 1401px) and (max-width: 1800px) {
         font-size: 1em;
         width: 35%;
         margin-top: 170px;
         left: 32%;
     }
+
     @media screen and (min-width: 2000px) {
         font-size: 1.2em;
         width: 25%;
@@ -69,16 +74,57 @@ blockquote span {
     font-weight: bold;
     margin-top: 1em;
 }
+
 .bg-divider {
     height: 400px;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: .8;
 }
-/* #display_quote {
-    -webkit-filter: grayscale(0%) !important;
-    filter: grayscale(0%) !important;
-} */
-blockquote {
-    
+
+.bg-divider-bottom {
+    height: 400px;
+    background-image: url("../img/background/foia2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+#quote_bottom blockquote {
+
+    @media screen and (max-width: 449px) {
+        font-size: .8em;
+        width: 75%;
+        margin-top: 140px;
+        left: 12%;
+    }
+
+    @media screen and (min-width: 450px) and (max-width: 767px) {
+        font-size: 1em;
+        width: 65%;
+        margin-top: 170px;
+        left: 18%;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1400px) {
+        font-size: 1em;
+        width: 40%;
+        margin-top: 170px;
+        left: 30%;
+    }
+
+    @media screen and (min-width: 1401px) and (max-width: 1800px) {
+        font-size: 1em;
+        width: 35%;
+        margin-top: 170px;
+        left: 32%;
+    }
+
+    @media screen and (min-width: 2000px) {
+        font-size: 1.2em;
+        width: 25%;
+        margin-top: 170px;
+        left: 38%;
+    }
 }
