@@ -1,86 +1,101 @@
 /*ANIMATIONS DES POINTS DE SUSPENSION DES SKILLS
 ==============================================================*/
-.spin1{
-	animation: spin_anime 1.2s ease-in-out infinite; 
+.spin1 {
+  animation: spin_anime 1.2s ease-in-out infinite;
 }
-.spin2{
-	animation: spin_anime 1.2s 0.2s ease-in-out infinite;
+
+.spin2 {
+  animation: spin_anime 1.2s 0.2s ease-in-out infinite;
 }
-.spin3{
-	animation: spin_anime 1.2s 0.4s ease-in-out infinite;
+
+.spin3 {
+  animation: spin_anime 1.2s 0.4s ease-in-out infinite;
 }
 
 @keyframes spin_anime {
-    0%{
-        opacity: 1; 
-        transform: scale(1) translateY(0px);
-    }
-    50%{
-        opacity: 0.6;
-        transform: scale(1.2) translateY(-4px);
-    }
-    100%{
-        opacity: 1; 
-        transform: scale(1) translateY(0px);
-    }
+  0% {
+    opacity: 1;
+    transform: scale(1) translateY(0px);
+  }
+
+  50% {
+    opacity: 0.6;
+    transform: scale(1.2) translateY(-4px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0px);
+  }
 }
 
 /*ANIMATIONS DU HOVER SUR LINKS FOOTER
 ==============================================================*/
 .list-unstyled a {
-    position: relative;
-    display: inline-block;
-    font-size: 28px;
-    font-weight: 300;
-    color: #666;
-    transition: color .2s ease;
-    padding: 3px 0;
-    margin-bottom: 15px;
-    
-    &:hover {
-      color: #aaa;
-       
-      &::after,
-      &::before {
-        width: 100%;
-        left: 0;
-      }
-      
-    }
-    
+  position: relative;
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 300;
+  color: #666;
+  transition: color .2s ease;
+  padding: 3px 0;
+  margin-bottom: 15px;
+
+  &:hover {
+    color: #aaa;
+
     &::after,
     &::before {
-      content: ''; 
-      position: absolute;
-      top: calc(100% + 5px);
-      width: 0;
-      right: 0;
-      height: 3px;
+      width: 100%;
+      left: 0;
     }
-    
-    &::before {
-      transition: width .4s cubic-bezier(0.51, 0.18, 0, 0.88) .1s;
-      background: #2196f3;
-    }
-    
-    &::after {
-      transition: width .2s cubic-bezier(0.29, 0.18, 0.26, 0.83);
-      background: $background_main;
-    }
+
   }
+
+  &::after,
+  &::before {
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    width: 0;
+    right: 0;
+    height: 3px;
+  }
+
+  &::before {
+    transition: width .4s cubic-bezier(0.51, 0.18, 0, 0.88) .1s;
+    background: #2196f3;
+  }
+
+  &::after {
+    transition: width .2s cubic-bezier(0.29, 0.18, 0.26, 0.83);
+    background: $background_main;
+  }
+}
 
 /*ANIMATIONS DU HOVER SUR IMAGES PORTFOLIO
 ==============================================================*/
 
 #portfolio .img-thumbnail {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
+
 #portfolio .img-thumbnail:hover {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+#overlay_top {
+  transform: translate(-50%, -50%);
+  transition: width, height, 1s ease-in-out;
+}
+
+#overlay_bottom {
+  transform: translate(-50%, -50%);
+  transition: width, height, 2s ease-in-out;
 }
 
 /*ANIMATIONS RIPPLE EFFECT SUR BOUTONS
@@ -101,6 +116,7 @@
     transform: scale(1);
     opacity: 0.4;
   }
+
   100% {
     transform: scale(50);
     opacity: 0;

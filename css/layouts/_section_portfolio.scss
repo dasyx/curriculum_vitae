@@ -8,6 +8,8 @@
 }
 
 #portfolio .zoom {
+    position: relative;
+    box-sizing: border-box;
     width: auto;
     height: auto;
     background: #fff;
@@ -32,11 +34,12 @@
     text-transform: uppercase;
 }
 
-.row {
+#portfolio .row {
     @media screen and (max-width: 576px) {
         margin-left: 0;
     }
 }
+#portfolio .img
 img:hover {
     filter: blur(2px);
     -webkit-filter: blur(2px);
@@ -47,13 +50,11 @@ img:hover {
     justify-content: center;
     position: absolute;
     padding: 20px;
-    width: 420px;
-    height: 200px;
+    width: 100px;
+    height: 0px;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
     opacity: 0;
-    transform: translate(-50%, -50%);
-    transition: .5s ease;
     @media screen and (max-width: 425px) {
         width: 250px;
         height: 150px;
@@ -61,7 +62,7 @@ img:hover {
 }
 #overlay_top {
     top: 25%;
-    left: 50%;   
+    left: 50%;  
 }
 #overlay_bottom {
     top: 75%;
@@ -71,8 +72,9 @@ img:hover {
 #text_icon,
 #text2,
 #text_icon2 {
-    display: inline;
+    display: none;
     color: #fff;
+    opacity: 0;
 }
 .zoom:hover #text,
 .zoom:hover #text_icon,

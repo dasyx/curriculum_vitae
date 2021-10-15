@@ -15,16 +15,21 @@ overlay.addEventListener('mouseover', function () {
     figcap2.style.display = "inline";
     figcap_text.style.display = "inline";
     figcap_text2.style.display = "inline";
+    displayTop.style.width = "420px";
+    displayBottom.style.width = "420px";
+    displayTop.style.height = "200px";
+    displayBottom.style.height = "200px";
 })
 overlay.addEventListener('mouseout', function () {
     figcap.textContent = "";
     figcap2.textContent = "";
     figcap_text.textContent = "";
     figcap_text.textContent = "";
-    figcap_text.style.display = "none";
-    figcap_text2.style.display = "none";
+    displayTop.style.width = "100px";
+    displayBottom.style.width = "100px";
+    displayTop.style.height = "0px";
+    displayBottom.style.height = "0px";
 })
-
 // Gestion de l'effet ripple au passage sur les boutons
 
 window.onload = function() {
