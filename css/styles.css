@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Lato', sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Lato+Sans");
+  font-display: swap;
+}
+
 /*ANIMATIONS DES POINTS DE SUSPENSION DES SKILLS
 ==============================================================*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
