@@ -7,7 +7,7 @@
     color: #fff;
 }
 
-#portfolio .zoom {
+#portfolio .zoom-overlay {
     position: relative;
     box-sizing: border-box;
     width: auto;
@@ -44,8 +44,8 @@ img:hover {
     filter: blur(2px);
     -webkit-filter: blur(2px);
 }
-#overlay_top,
-#overlay_bottom {
+.overlay_top,
+.overlay_bottom {
     display: flex;
     justify-content: center;
     position: absolute;
@@ -60,11 +60,11 @@ img:hover {
         height: 150px;
     }
 }
-#overlay_top {
+.overlay_top {
     top: 25%;
     left: 50%;  
 }
-#overlay_bottom {
+.overlay_bottom {
     top: 75%;
     left: 50%;
 }
@@ -76,11 +76,11 @@ img:hover {
     color: #fff;
     opacity: 0;
 }
-.zoom:hover #text,
-.zoom:hover #text_icon,
-.zoom:hover #text2,
-.zoom:hover #text_icon2,
-.zoom:hover #overlay_top,
-.zoom:hover #overlay_bottom {
+.zoom-overlay:hover #text,
+.zoom-overlay:hover #text_icon,
+.zoom-overlay:hover #text2,
+.zoom-overlay:hover #text_icon2,
+.zoom-overlay:hover .overlay_top,
+.zoom-overlay:hover .overlay_bottom {
     opacity: 1;
 }

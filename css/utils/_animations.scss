@@ -88,12 +88,12 @@
   transform: scale(1.3);
 }
 
-#overlay_top {
+.overlay_top {
   transform: translate(-50%, -50%);
   transition: width, height, 1s ease-in-out;
 }
 
-#overlay_bottom {
+.overlay_bottom {
   transform: translate(-50%, -50%);
   transition: width, height, 2s ease-in-out;
 }
