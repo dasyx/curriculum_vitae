@@ -68,19 +68,24 @@ img:hover {
     top: 75%;
     left: 50%;
 }
-#text,
-#text_icon,
-#text2,
-#text_icon2 {
+.bi,
+.text_top,
+.text_top_second,
+.text_bottom,
+.text_icon2
+{
     display: none;
+    padding: 5px;
     color: #fff;
     opacity: 0;
+    font-size: x-large;
 }
-.zoom-overlay:hover #text,
-.zoom-overlay:hover #text_icon,
-.zoom-overlay:hover #text2,
-.zoom-overlay:hover #text_icon2,
+.zoom-overlay:hover .bi,
+.zoom-overlay:hover .text_top,
+.zoom-overlay:hover .text_top_second,
+.zoom-overlay:hover .text_bottom,
+.zoom-overlay:hover .text_icon2,
 .zoom-overlay:hover .overlay_top,
-.zoom-overlay:hover .overlay_bottom {
+.zoom-overlay:hover .overlay_bottom  {
     opacity: 1;
 }
