@@ -106,8 +106,10 @@ function portfolioDisplay() {
       displayBottom[i].style.display = "none";
       displayTop[i].style.display = "none";
     }
-  } else {
-    lowResPortfolio[i].style.display = "none";
+  } else if (!lowResDisplay.matches) {
+      for (i = 0; i < lowResPortfolio.length; i++) {
+        lowResPortfolio[i].style.display = "none";
+    }
   }
 }
 portfolioDisplay();

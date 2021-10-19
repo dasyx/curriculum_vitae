@@ -522,6 +522,12 @@ blockquote span {
   background: #fff;
 }
 
+@media (max-width: 767px) {
+  #skills {
+    margin-top: 20px;
+  }
+}
+
 #skills .head_banner h2 {
   margin-top: 30px;
   color: #2e51af;
@@ -551,6 +557,12 @@ blockquote span {
 
 #experience {
   margin-top: 100px;
+}
+
+@media (max-width: 767px) {
+  #experience {
+    margin-top: 20px;
+  }
 }
 
 :focus {

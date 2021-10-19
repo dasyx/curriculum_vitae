@@ -1,5 +1,8 @@
 #experience {
     margin-top: 100px;
+    @media (max-width: 767px) {
+        margin-top: 20px;
+    }
 }
 :focus {
     outline: 0px solid transparent !important;
