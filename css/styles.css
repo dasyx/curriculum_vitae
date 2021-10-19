@@ -225,12 +225,19 @@ h1, h2, h3, h4, h5, h6 {
   display: -ms-flexbox;
   display: flex;
   cursor: pointer;
-  background: -webkit-gradient(linear, left top, left bottom, from(#2e51af), color-stop(#3055af), color-stop(#3259ae), color-stop(#355cad), color-stop(#3960ac), color-stop(#4968b0), color-stop(#5771b4), color-stop(#6479b8), color-stop(#7c89c3), color-stop(#939acd), color-stop(#a9acd8), to(#bebee3));
-  background: linear-gradient(to bottom, #2e51af, #3055af, #3259ae, #355cad, #3960ac, #4968b0, #5771b4, #6479b8, #7c89c3, #939acd, #a9acd8, #bebee3);
+  background: -webkit-gradient(linear, left top, right top, from(#324f9e), color-stop(#3d5eac), color-stop(#4367af), color-stop(#4b6db5), color-stop(#5d7dc2), to(#6588c6));
+  background: linear-gradient(to right, #324f9e, #3d5eac, #4367af, #4b6db5, #5d7dc2, #6588c6);
   font-size: 12px;
   letter-spacing: 4px;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    background: -webkit-gradient(linear, right top, left top, from(#324f9e), color-stop(#3d5eac), color-stop(#4367af), color-stop(#4b6db5), color-stop(#5d7dc2), to(#6588c6));
+    background: linear-gradient(to left, #324f9e, #3d5eac, #4367af, #4b6db5, #5d7dc2, #6588c6);
+  }
 }
 
 .nav .navbar-nav {
@@ -238,6 +245,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .navbar-collapse {
+  padding: 20px;
   text-align: center;
 }
 
@@ -245,6 +253,23 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+
+.navbar-brand img {
+  position: absolute;
+  top: -25px;
+  left: 5px;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand img {
+    height: 65px;
+    left: -172px;
+  }
+}
+
+.navbar-light {
+  background: transparent;
 }
 
 .navbar li a {
@@ -270,9 +295,9 @@ section .head_banner {
 }
 
 #about img {
-  margin-top: 30px;
+  margin-top: 80px;
   max-width: 50%;
-  width: 400px;
+  width: 200px;
   height: auto;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -986,5 +1011,9 @@ img:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.low-res_display .btn {
+  margin-right: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
