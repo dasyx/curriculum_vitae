@@ -1,5 +1,4 @@
 // Ecoute de l'événement passage de souris pour afficher l'overlay sur les images du portfolio
-
 let overlay = document.getElementById('mouse_out');
 let displayTop = document.getElementsByClassName('overlay_top');
 let displayBottom = document.getElementsByClassName('overlay_bottom');
@@ -30,7 +29,6 @@ overlay.addEventListener('mouseover', function () {
   for (i = 0; i < figcap_top_sec.length && figcap_top; i++) {
     figcap_top_sec[i].textContent = "Voir le site";
     figcap_top[i].style.textAlign = "center";
-    figcap_top_sec[i].style.margi = "center";
   }
   for (i = 0; i < figcap_top.length && figcap_top_sec.length; i++) {
     figcap_top[i].style.display = "flex";
@@ -39,37 +37,50 @@ overlay.addEventListener('mouseover', function () {
   for (i = 0; i < figcap_bottom.length; i++) {
     figcap_bottom[i].textContent = "Voir le code";
   }
+  for (i = 0; i < figcap_tech1.length && figcap_tech2.length && figcap_tech3.length; i++) {
+    figcap_tech1[i].style.margin = "10px";
+    figcap_tech2[i].style.margin = "10px";
+    figcap_tech3[i].style.margin = "10px";
+  }
   // Affichage conditionnel spécifique du contenu portofilio pour chaque projet
   if (figcap_top[0]) {
-    figcap_top[0].innerHTML = "Dynamiser une page web avec des animations CSS";
+    figcap_top[0].innerHTML = "Dynamiser une page web" + "<br>" + "avec" + "<br>" + "des animations CSS";
     figcap_tech1[0].innerHTML = "HTML";
-    figcap_tech1[0].style.margin = "10px";
     figcap_tech2[0].innerHTML = "CSS";
-    figcap_tech2[0].style.margin = "10px";
     figcap_tech3[0].innerHTML = "SASS";
-    figcap_tech3[0].style.margin = "10px";
   }
   if (figcap_top[1]) {
     figcap_top[1].innerHTML = "Optimiser un site web existant";
+    figcap_tech1[1].innerHTML = "HTML";
+    figcap_tech2[1].innerHTML = "BOOTSTRAP";
+    figcap_tech3[1].innerHTML = "SEO";
   }
   if (figcap_top[2]) {
     figcap_top[2].innerHTML = "Construire un site e-commerce";
+    figcap_tech1[2].innerHTML = "HTML";
+    figcap_tech2[2].innerHTML = "CSS";
+    figcap_tech3[2].innerHTML = "JAVASCRIPT";
   }
   if (figcap_top[3]) {
     figcap_top[3].innerHTML = "Construire une API sécurisée pour une application d'avis gastronomiques";
+    figcap_tech1[3].innerHTML = "HTML";
+    figcap_tech2[3].innerHTML = "CSS";
+    figcap_tech3[3].innerHTML = "NODEJS";
   }
   if (figcap_top[4]) {
     figcap_top[4].innerHTML = "Créer un réseau social d'entrprise";
+    figcap_tech1[4].innerHTML = "JAVASCRIPT";
+    figcap_tech2[4].innerHTML = "VUEJS";
+    figcap_tech3[4].innerHTML = "NODEJS";
   }
   if (figcap_top[5]) {
     figcap_top[5].innerHTML = "Transformer une maquette en site web";
+    figcap_tech1[5].innerHTML = "HTML";
+    figcap_tech3[5].innerHTML = "CSS";
   }
-  /* for (i = 0; i < icon_display.length; i++) {
-    icon.setAttribute("class", "bi bi-arrow-right-circle");
-    icon_display[i].append(icon);
-  } */
 })
 
+// Fin de l'animation hover des éléments du portfolio
 overlay.addEventListener('mouseout', function () {
 
   for (i = 0; i < displayBottom.length && displayTop; i++) {
@@ -80,7 +91,7 @@ overlay.addEventListener('mouseout', function () {
   }
 })
 
-// script contrôlant l'effet goutte d'eau sur les éléments nav du header
+// Script contrôlant l'effet goutte d'eau sur les éléments nav du header
 
 window.onload = function () {
   let rippleElements = document.getElementsByClassName("myRipple");
