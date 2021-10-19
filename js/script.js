@@ -41,6 +41,7 @@ overlay.addEventListener('mouseover', function () {
     figcap_tech1[i].style.margin = "10px";
     figcap_tech2[i].style.margin = "10px";
     figcap_tech3[i].style.margin = "10px";
+
   }
   // Affichage conditionnel spécifique du contenu portofilio pour chaque projet
   if (figcap_top[0]) {
@@ -48,6 +49,7 @@ overlay.addEventListener('mouseover', function () {
     figcap_tech1[0].innerHTML = "HTML";
     figcap_tech2[0].innerHTML = "CSS";
     figcap_tech3[0].innerHTML = "SASS";
+    //figcap_tech1[0].style.backgroundColor = "yellow";
   }
   if (figcap_top[1]) {
     figcap_top[1].innerHTML = "Optimiser un site web existant";
@@ -91,8 +93,26 @@ overlay.addEventListener('mouseout', function () {
   }
 })
 
-// Script contrôlant l'effet goutte d'eau sur les éléments nav du header
+// Gestion de l'affichage basse ou haute résolution des images du portfolio
+let lowResPortfolio = document.getElementsByClassName('low-res_display');
+var lowResDisplay = window.matchMedia("(max-width: 767px)")
 
+function portfolioDisplay() {
+  if (lowResDisplay.matches) {
+    for (i = 0; i < lowResPortfolio.length; i++) {
+      lowResPortfolio[i].style.display = "flex";
+    }
+    for (i = 0; i < displayBottom.length && displayTop.length; i++) {
+      displayBottom[i].style.display = "none";
+      displayTop[i].style.display = "none";
+    }
+  } else {
+    lowResPortfolio[i].style.display = "none";
+  }
+}
+portfolioDisplay();
+
+// Script contrôlant l'effet goutte d'eau sur les éléments nav du header
 window.onload = function () {
   let rippleElements = document.getElementsByClassName("myRipple");
   for (var i = 0; i < rippleElements.length; i++) {

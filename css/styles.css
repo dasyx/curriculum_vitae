@@ -180,7 +180,8 @@ section, footer {
 }
 
 .img-thumbnail {
-  max-width: 95%;
+  max-width: 100%;
+  padding: 1.25rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -876,10 +877,10 @@ img:hover {
 }
 
 @media screen and (max-width: 425px) {
-  .overlay_top,
-  .overlay_bottom {
+  .overlay_top:hover,
+  .overlay_bottom:hover {
     width: 250px;
-    height: 150px;
+    height: 100px;
   }
 }
 
@@ -966,5 +967,12 @@ img:hover {
 .zoom-overlay:hover .overlay_top .bi,
 .zoom-overlay:hover .overlay_bottom .bi {
   opacity: 1;
+}
+
+.low-res_display {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=styles.css.map */

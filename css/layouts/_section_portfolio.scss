@@ -55,9 +55,12 @@ img:hover {
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
     opacity: 0;
+}
+.overlay_top:hover,
+.overlay_bottom:hover {
     @media screen and (max-width: 425px) {
         width: 250px;
-        height: 150px;
+        height: 100px;
     }
 }
 .overlay_top {
@@ -117,4 +120,8 @@ img:hover {
 .zoom-overlay:hover .overlay_top .bi,
 .zoom-overlay:hover .overlay_bottom .bi {
     opacity: 1;
+}
+.low-res_display {
+    display: none;
+    justify-content: center;
 }
