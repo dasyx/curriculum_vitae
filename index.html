@@ -10,6 +10,7 @@
     <meta name="robots" content="index, follow">
     <!-- Open Graph data -->
     <!-- Facebook Meta tags-->
+    <meta property="fb:app_id" content="245955314257726"/>
     <meta property="og:title" content="Création de site web en Normandie" />
     <meta property="og:url" content="https://www.davidlevast.fr" />
     <meta property="og:image:width" content="473" />
@@ -31,6 +32,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" />
     <script src="js/script.js" async></script>
+    
+<script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '{your-app-id}',
+        cookie     : true,
+        xfbml      : true,
+        version    : '{api-version}'
+      });
+        
+      FB.AppEvents.logPageView();   
+        
+    };
+  
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="15">
