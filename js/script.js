@@ -12,6 +12,7 @@ let figcap_tech3 = document.getElementsByClassName('text_techno3');
 let figcap_top_icon = document.getElementsByClassName('bi');
 let icon_top_display = document.getElementsByClassName('icon_top_display');
 let icon_bottom_display = document.getElementsByClassName('icon_bottom_display');
+let low_res_site = document.getElementsByClassName('lw_res_site')
 let icon = document.createElement('i');
 
 overlay.addEventListener('mouseover', function () {
@@ -116,6 +117,17 @@ function portfolioDisplay() {
   }
 }
 portfolioDisplay();
+
+// Gestion de l'affichage des sites du portfolio qui nécessite un hébergement 
+// (et qui ne s'afficheront pas correctement sans un passage en production)
+function displaySite() {
+    if (low_res_site[2] || low_res_site[3] || low_res_site[4]) {
+      low_res_site[2].style.display = "none";
+      low_res_site[3].style.display = "none";
+      low_res_site[4].style.display = "none";
+    }
+}
+displaySite();
 
 // Script contrôlant l'effet goutte d'eau sur les éléments nav du header
 window.onload = function () {
