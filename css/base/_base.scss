@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: "Lato", "Roboto", sans-serif;
     -moz-user-select: none;
@@ -13,5 +16,5 @@ section, footer {
 }
 .img-thumbnail {
     max-width: 100%;
-    padding: 1.25rem;
+    padding: .25rem;
 }

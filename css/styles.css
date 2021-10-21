@@ -163,6 +163,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Lato", "Roboto", sans-serif;
   -moz-user-select: none;
@@ -181,7 +185,7 @@ section, footer {
 
 .img-thumbnail {
   max-width: 100%;
-  padding: 1.25rem;
+  padding: .25rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -218,6 +222,42 @@ h1, h2, h3, h4, h5, h6 {
   display: inline;
   margin-left: 10px;
   color: #4368cd;
+}
+
+.scrollToTopBtn {
+  /* same general styles as before */
+  background-color: #324f9e;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 48px;
+  width: 48px;
+  /* place it at the bottom-right corner */
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  /* keep it at the top of everything else */
+  z-index: 100;
+  /* hide with opacity */
+  opacity: 0;
+  /* also add a translate effect */
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  /* and a transition */
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.showBtn {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.scrollToTopBtn i {
+  font-size: large;
 }
 
 .navbar {
@@ -257,14 +297,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-brand img {
   position: absolute;
-  top: -35px;
+  top: -38px;
   height: 100px;
 }
 
 @media (max-width: 991px) {
   .navbar-brand img {
-    top: -15px;
-    height: 55px;
+    top: -20px;
+    height: 69px;
     left: -102px;
   }
 }
@@ -296,7 +336,8 @@ section .head_banner {
 }
 
 #about img {
-  margin-top: 80px;
+  margin-top: 90px;
+  margin-bottom: 20px;
   max-width: 50%;
   width: 200px;
   height: auto;
@@ -308,14 +349,20 @@ section .head_banner {
 }
 
 #about .head_banner h1 {
-  margin-top: 30px;
+  margin: 40px 0px;
   color: #fff;
-  text-transform: uppercase;
+  letter-spacing: .6em;
 }
 
 #about .head_banner h2 {
-  margin: 10px 0px;
+  margin: 20px 0px;
   color: #fff;
+}
+
+#about .head_banner h3 {
+  margin: 40px 0px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .profile-picture {

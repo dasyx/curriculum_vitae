@@ -11,7 +11,8 @@ section .head_banner {
 }
 
 #about img {
-    margin-top: 80px;
+    margin-top: 90px;
+    margin-bottom: 20px;
     max-width: 50%;
     width: 200px;
     height: auto;
@@ -22,14 +23,19 @@ section .head_banner {
 }
 
 #about .head_banner h1 {
-    margin-top: 30px;
+    margin: 40px 0px;
     color: #fff;
-    text-transform: uppercase;
+    letter-spacing: .6em;
 }
 
 #about .head_banner h2 {
-    margin: 10px 0px;
+    margin: 20px 0px;
     color: #fff;
+}
+#about .head_banner h3 {
+    margin: 40px 0px;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 .profile-picture {

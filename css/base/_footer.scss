@@ -2,24 +2,65 @@
     background-color: #ededed;
     box-shadow: 0px -4px 34px -15px #bebee3;
 }
+
 #contact .white-divider {
     background: $background_main;
 }
+
 #contact .container h2 {
     margin: 50px 0px;
     text-transform: uppercase;
     text-align: center;
     color: $background_main;
 }
+
 .list-unstyled {
     padding-top: 20px;
     text-align: center;
 }
+
 .list-unstyled span {
     color: $background_main;
 }
+
 .list-unstyled p {
     display: inline;
     margin-left: 10px;
     color: lighten($background_main, 10%)
+}
+
+.scrollToTopBtn {
+    /* same general styles as before */
+    background-color: #324f9e;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 48px;
+    width: 48px;
+    /* place it at the bottom-right corner */
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    /* keep it at the top of everything else */
+    z-index: 100;
+
+    /* hide with opacity */
+    opacity: 0;
+
+    /* also add a translate effect */
+    transform: translateY(100px);
+
+    /* and a transition */
+    transition: all .5s ease
+}
+
+.showBtn {
+    opacity: 1;
+    transform: translateY(0)
+}
+.scrollToTopBtn i {
+    font-size: large;
 }

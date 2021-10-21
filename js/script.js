@@ -111,8 +111,8 @@ function portfolioDisplay() {
       displayTop[i].style.display = "none";
     }
   } else if (!lowResDisplay.matches) {
-      for (i = 0; i < lowResPortfolio.length; i++) {
-        lowResPortfolio[i].style.display = "none";
+    for (i = 0; i < lowResPortfolio.length; i++) {
+      lowResPortfolio[i].style.display = "none";
     }
   }
 }
@@ -121,11 +121,11 @@ portfolioDisplay();
 // Gestion de l'affichage des sites du portfolio qui nécessite un hébergement 
 // (et qui ne s'afficheront pas correctement sans un passage en production)
 function displaySite() {
-    if (low_res_site[2] || low_res_site[3] || low_res_site[4]) {
-      low_res_site[2].style.display = "none";
-      low_res_site[3].style.display = "none";
-      low_res_site[4].style.display = "none";
-    }
+  if (low_res_site[2] || low_res_site[3] || low_res_site[4]) {
+    low_res_site[2].style.display = "none";
+    low_res_site[3].style.display = "none";
+    low_res_site[4].style.display = "none";
+  }
 }
 displaySite();
 
@@ -148,3 +148,27 @@ window.onload = function () {
     }
   }
 }
+var scrollToTopBtn = document.querySelector(".scrollToTopBtn");
+var rootElement = document.documentElement;
+
+function handleScroll() {
+  // Do something on scroll
+  var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
+  if (rootElement.scrollTop / scrollTotal > 0.8) {
+    // Show button
+    scrollToTopBtn.classList.add("showBtn");
+  } else {
+    // Hide button
+    scrollToTopBtn.classList.remove("showBtn");
+  }
+}
+
+function scrollToTop() {
+  // Scroll to top logic
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+scrollToTopBtn.addEventListener("click", scrollToTop);
+document.addEventListener("scroll", handleScroll);
