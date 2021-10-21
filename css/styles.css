@@ -257,14 +257,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-brand img {
   position: absolute;
-  top: -25px;
-  left: 5px;
+  top: -22px;
 }
 
 @media (max-width: 991px) {
   .navbar-brand img {
-    height: 65px;
-    left: -172px;
+    top: -15px;
+    height: 55px;
+    left: -102px;
   }
 }
 
@@ -339,14 +339,6 @@ section .head_banner {
   border-radius: 3px;
   -webkit-transition: all .3s ease-in 0s;
   transition: all .3s ease-in 0s;
-  /*     @media (max-width: 2000px) {
-        width: 300px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        background-color: #fff;
-        opacity: .7;
-        color: $background_main;
-    } */
 }
 
 .button1:hover {

@@ -27,11 +27,11 @@
 
 .navbar-brand img {
     position: absolute;
-    top: -25px;
-    left: 5px;
+    top: -22px;
     @media (max-width: 991px) {
-        height: 65px;
-        left: -172px;
+        top: -15px;
+        height: 55px;
+        left: -102px;
     }
 }
 .navbar-light {

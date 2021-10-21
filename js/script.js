@@ -59,18 +59,21 @@ overlay.addEventListener('mouseover', function () {
   }
   if (figcap_top[2]) {
     figcap_top[2].innerHTML = "Construire un site e-commerce";
+    figcap_top_sec[2].style.display = "none";
     figcap_tech1[2].innerHTML = "HTML";
     figcap_tech2[2].innerHTML = "CSS";
     figcap_tech3[2].innerHTML = "JAVASCRIPT";
   }
   if (figcap_top[3]) {
     figcap_top[3].innerHTML = "Construire une API sécurisée pour une application d'avis gastronomiques";
+    figcap_top_sec[3].style.display = "none";
     figcap_tech1[3].innerHTML = "HTML";
     figcap_tech2[3].innerHTML = "CSS";
     figcap_tech3[3].innerHTML = "NODEJS";
   }
   if (figcap_top[4]) {
     figcap_top[4].innerHTML = "Créer un réseau social d'entrprise";
+    figcap_top_sec[4].style.display = "none";
     figcap_tech1[4].innerHTML = "JAVASCRIPT";
     figcap_tech2[4].innerHTML = "VUEJS";
     figcap_tech3[4].innerHTML = "NODEJS";
