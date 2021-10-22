@@ -54,7 +54,11 @@
     transform: translateY(100px);
 
     /* and a transition */
-    transition: all .5s ease
+    transition: all .5s ease;
+
+    @media (max-width: 991px) {
+        bottom: 0px;
+    }
 }
 
 .showBtn {

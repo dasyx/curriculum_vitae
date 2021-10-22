@@ -192,6 +192,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
+@media (max-width: 991px) {
+  h1 {
+    font-size: calc(1.175rem + 1.5vw);
+  }
+}
+
 #contact {
   background-color: #ededed;
   -webkit-box-shadow: 0px -4px 34px -15px #bebee3;
@@ -250,6 +256,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: all .5s ease;
 }
 
+@media (max-width: 991px) {
+  .scrollToTopBtn {
+    bottom: 0px;
+  }
+}
+
 .showBtn {
   opacity: 1;
   -webkit-transform: translateY(0);
@@ -305,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
   .navbar-brand img {
     top: -20px;
     height: 69px;
-    left: -102px;
+    right: -20px;
   }
 }
 
@@ -601,7 +613,7 @@ blockquote span {
 
 #skills .progress {
   height: 50px;
-  margin: 30px 20px;
+  margin: 30px 5px;
   background: #ddd;
 }
 
