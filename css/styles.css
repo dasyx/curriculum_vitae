@@ -340,11 +340,20 @@ section .head_banner {
   padding-bottom: 40px;
 }
 
-#about, .bg-divider {
+#about,
+.bg-divider {
   background-image: url("../img/background/lioran_crop.webp");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  #about,
+  .bg-divider {
+    background: -webkit-gradient(linear, left top, left bottom, from(#2e51af), color-stop(#3055af), color-stop(#3259ae), color-stop(#355cad), color-stop(#3960ac), color-stop(#4968b0), color-stop(#5771b4), color-stop(#6479b8), color-stop(#7c89c3), color-stop(#939acd), color-stop(#a9acd8), to(#bebee3));
+    background: linear-gradient(to bottom, #2e51af, #3055af, #3259ae, #355cad, #3960ac, #4968b0, #5771b4, #6479b8, #7c89c3, #939acd, #a9acd8, #bebee3);
+  }
 }
 
 #about img {

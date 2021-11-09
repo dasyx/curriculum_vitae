@@ -3,11 +3,19 @@ section .head_banner {
     padding-bottom: 40px;
 }
 
-#about, .bg-divider {
+#about,
+.bg-divider {
     background-image: url("../img/background/lioran_crop.webp");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+
+    @media (max-width: 767px) {
+        background: $background_gradient;
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+    }
 }
 
 #about img {
@@ -32,6 +40,7 @@ section .head_banner {
     margin: 20px 0px;
     color: #fff;
 }
+
 #about .head_banner h3 {
     margin: 40px 0px;
     color: #fff;
