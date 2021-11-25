@@ -567,6 +567,7 @@
                 </div>
             </div>
         </div>
+        <?php include 'php/contact.php';?>
         <button class="scrollToTopBtn">
             <i class="bi bi-chevron-double-up"></i>
         </button>

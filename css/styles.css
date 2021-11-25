@@ -1077,4 +1077,75 @@ img:hover {
 .low-res_display .btn {
   margin-right: 20px;
 }
+
+#form {
+  margin: 70px 0px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5771b4), color-stop(#6479b8), color-stop(#7c89c3), color-stop(#939acd), color-stop(#a9acd8), to(#bebee3));
+  background: linear-gradient(to bottom, #5771b4, #6479b8, #7c89c3, #939acd, #a9acd8, #bebee3);
+}
+
+#form .heading h2 {
+  margin-top: 20px;
+  color: #fff;
+}
+
+#contact-form {
+  font-size: 20px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.blue {
+  color: #2e51af;
+}
+
+.form-control {
+  height: 50px;
+  font-size: 18px;
+}
+
+.comments {
+  height: 25px;
+  font-style: italic;
+  font-size: 13px;
+  color: #d82c2e;
+}
+
+#contact-form input[type=submit] {
+  display: block;
+  margin: 40px auto 0px;
+}
+
+#contact-form input[placeholder], #contact-form textarea[placeholder] {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.form_button {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: -webkit-gradient(linear, right top, left top, from(#324f9e), color-stop(#3d5eac), color-stop(#4367af), color-stop(#4b6db5), color-stop(#5d7dc2), to(#6588c6));
+  background: linear-gradient(to left, #324f9e, #3d5eac, #4367af, #4b6db5, #5d7dc2, #6588c6);
+  color: #fff;
+  width: 100%;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-transition: all .3s ease-in 0s;
+  transition: all .3s ease-in 0s;
+}
+
+.form_button:hover {
+  background: #333;
+  border-color: linear-gradient(to left, #324f9e, #3d5eac, #4367af, #4b6db5, #5d7dc2, #6588c6);
+}
+
+.thanks {
+  display: none;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
 /*# sourceMappingURL=styles.css.map */
