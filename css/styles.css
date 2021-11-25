@@ -456,9 +456,9 @@ blockquote {
 @media screen and (max-width: 449px) {
   blockquote {
     font-size: 1em;
-    width: 65%;
-    margin-top: 140px;
-    left: 18%;
+    width: 72%;
+    margin-top: 102px;
+    left: 13%;
   }
 }
 
@@ -466,7 +466,7 @@ blockquote {
   blockquote {
     font-size: 1em;
     width: 65%;
-    margin-top: 170px;
+    margin-top: 116px;
     left: 18%;
   }
 }
@@ -474,27 +474,27 @@ blockquote {
 @media screen and (min-width: 768px) and (max-width: 1400px) {
   blockquote {
     font-size: 1em;
-    width: 40%;
-    margin-top: 170px;
-    left: 30%;
+    width: 48%;
+    margin-top: 109px;
+    left: 25%;
   }
 }
 
 @media screen and (min-width: 1401px) and (max-width: 1800px) {
   blockquote {
     font-size: 1em;
-    width: 35%;
-    margin-top: 170px;
-    left: 32%;
+    width: 27%;
+    margin-top: 113px;
+    left: 36%;
   }
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1801px) {
   blockquote {
     font-size: 1.2em;
-    width: 25%;
-    margin-top: 170px;
-    left: 38%;
+    width: 28%;
+    margin-top: 105px;
+    left: 36%;
   }
 }
 
@@ -521,14 +521,14 @@ blockquote span {
 }
 
 .bg-divider {
-  height: 400px;
+  height: 250px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: .8;
 }
 
 .bg-divider-bottom {
-  height: 400px;
+  height: 250px;
   background-image: url("../img/background/foia2.webp");
   background-size: cover;
   background-attachment: fixed;
@@ -540,8 +540,8 @@ blockquote span {
   #quote_bottom blockquote {
     font-size: .8em;
     width: 75%;
-    margin-top: 140px;
-    left: 12%;
+    margin-top: 95px;
+    left: 13%;
   }
 }
 
@@ -549,7 +549,7 @@ blockquote span {
   #quote_bottom blockquote {
     font-size: 1em;
     width: 65%;
-    margin-top: 170px;
+    margin-top: 78px;
     left: 18%;
   }
 }
@@ -557,27 +557,27 @@ blockquote span {
 @media screen and (min-width: 768px) and (max-width: 1400px) {
   #quote_bottom blockquote {
     font-size: 1em;
-    width: 40%;
-    margin-top: 170px;
-    left: 30%;
+    width: 64%;
+    margin-top: 99px;
+    left: 18%;
   }
 }
 
 @media screen and (min-width: 1401px) and (max-width: 1800px) {
   #quote_bottom blockquote {
     font-size: 1em;
-    width: 35%;
-    margin-top: 170px;
-    left: 32%;
+    width: 65%;
+    margin-top: 117px;
+    left: 16%;
   }
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1801px) {
   #quote_bottom blockquote {
     font-size: 1.2em;
-    width: 25%;
-    margin-top: 170px;
-    left: 38%;
+    width: 66%;
+    margin-top: 105px;
+    left: 17%;
   }
 }
 
