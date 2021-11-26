@@ -1,7 +1,7 @@
 <?php
 
-ini_set("SMTP", "127.0.0.1");
-ini_set("smtp_port", "1025");
+ini_set("SMTP", "smtp.free.fr");
+ini_set("smtp_port", "25");
 
 $firstname = $name = $email = $phone = $message = "";
 $firstnameError = $nameError = $emailError = $phoneError = $messageError = "";

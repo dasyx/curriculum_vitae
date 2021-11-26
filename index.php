@@ -95,15 +95,14 @@
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                    <p>Ecrit-on du code comme on écrit une lettre intime et personnelle à un proche, à un ami, à sa
-                        famille ?</p>
-                    <p>Peut-on écrire avec son coeur, et faire vivre ces chaînes de caractères comme on laisse se
-                        répandre son caractère au travers de lignes de code superposées, imbriquées ?</p>
-                    <p>Cette idée se dessine au sein d'une passion qui grandit sans cesse, donne du sens et s'anime
-                        entre ces chevrons, ces attributs, ces classes
-                        et ces indentations.</p>
-                    <p>Je me tiendrai à vos côtés pour entreprendre, pour créer, pour avancer ; nous apprendrons
-                        ensemble l'un de l'autre, nous concrétiserons et optimiserons vos projets.</p>
+                    <p>Qu'y a t-il de plus heureux que de vivre de sa <i>passion</i> ?</p>
+                    <p>Peut-on écrire et faire vivre ces chaînes de caractères, ces octets, comme on laisse se répandre son caractère au travers de lignes de code superposées, imbriquées ?</p>
+                    <p>Cette idée grandit sans cesse, donne du sens à ces mots et s'anime entre ces chevrons, ces attributs, ces classes et ces indentations.</p>
+                    <p>Le <strong>développement web</strong>, un art, une <i>motivation</i>, un fil d'Ariane.</p>
+                    <p id="bio_separate"></p>
+                    <p>Je me tiendrai à vos côtés pour réaliser vos rêves d'entreprendre, de créer, d'avancer; nous mettrons en scène vos idées de <strong>création de site web</strong>, nous apprendrons ensemble l'un de l'autre, nous concrétiserons et optimiserons vos projets actuels.</p>
+                    <p>Exprimez-moi vos souhaits quand vous en avez l'envie, je serai à l'écoute.</p>
+                    <p>Pour faire connaissance, c'est <a id="bio_contact" href="#contact">ici </a>!
                 </div>
             </div>
         </div>
@@ -556,8 +555,7 @@
                 <div class="col-sm-4">
                     <ul class="list-unstyled">
                         <li>
-                            <a class="text-decoration-none" href="mailto:david.levast27@gmail.com" target="_blank"
-                                rel="noopener">
+                            <a class="text-decoration-none" onclick="displayContact()">
                                 <span class="bi bi-mailbox">
                                     <p>Email</p>
                                 </span>
@@ -567,7 +565,9 @@
                 </div>
             </div>
         </div>
-        <?php include 'php/contact.php';?>
+        <div id="contactDisplay">
+            <?php include 'php/contact.php';?>
+        </div>
         <button class="scrollToTopBtn">
             <i class="bi bi-chevron-double-up"></i>
         </button>

@@ -172,3 +172,13 @@ function scrollToTop() {
 }
 scrollToTopBtn.addEventListener("click", scrollToTop);
 document.addEventListener("scroll", handleScroll);
+
+
+// Script animant l'affichage du formulaire de contact
+
+var contact = document.getElementById("contactDisplay");
+
+function displayContact() {
+    contact.style.display = "block";
+    window.scrollBy(0,800);
+}

@@ -163,6 +163,12 @@
   }
 }
 
+/*AFFICHAGE DU FORMULAIRE DE CONTACT DANS LE FOOTER
+==============================================================*/
+#contactDisplay {
+  display: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -435,6 +441,15 @@ section .head_banner {
   text-transform: uppercase;
 }
 
+#bio_separate {
+  margin: 10px;
+  border-top: 1px dotted #000;
+}
+
+#bio_contact {
+  text-decoration: none;
+}
+
 blockquote {
   position: absolute;
   font-size: 1.4em;
@@ -483,9 +498,9 @@ blockquote {
 @media screen and (min-width: 1401px) and (max-width: 1800px) {
   blockquote {
     font-size: 1em;
-    width: 27%;
+    width: 30%;
     margin-top: 113px;
-    left: 36%;
+    left: 35%;
   }
 }
 
