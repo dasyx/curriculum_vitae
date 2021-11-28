@@ -5,8 +5,7 @@
     <title>Création de site web en Normandie</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description"
-        content="David Levast, développeur web freelance Javascript, indépendant, sérieux et passionné, à la recherche de nouvelles opportunités en Normandie, France, je m'occuperai de la création de votre site, j'aurai à coeur d'optimiser un site internet existant, d'améliorer son référencement naturel. Si vous cherchez un développeur indépendant, contactez-moi">
+    <meta name="description" content="David Levast, développeur web freelance Javascript, indépendant, sérieux et passionné, à la recherche de nouvelles opportunités en Normandie, France, je m'occuperai de la création de votre site, j'aurai à coeur d'optimiser un site internet existant, d'améliorer son référencement naturel. Si vous cherchez un développeur indépendant, contactez-moi">
     <meta name="robots" content="index, follow">
     <!-- Open Graph data -->
     <!-- Facebook Meta tags-->
@@ -22,12 +21,10 @@
     <meta property="og:type" content="website" />
     <!-- End of Open Graph Data-->
     <link rel="icon" type="image/x-icon" href="img/david_levast.ico">
-    <link as="style" rel="stylesheet preload prefetch"
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" />
-    <link as="style" rel="stylesheet preload prefetch" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
-    <link as="style" rel="stylesheet preload prefetch"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link as="style" rel="stylesheet preload prefetch" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" />
+    <link as="style" rel="stylesheet preload prefetch" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link as="style" rel="stylesheet preload prefetch" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -51,8 +48,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar"
-                    aria-label="menu_header">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar" aria-label="menu_header">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
@@ -74,16 +70,13 @@
     </nav>
     <section class="container-fluid bg-banniere" id="about">
         <div class="col-xs-8 col-md-4 profile-picture">
-            <img src="img/moi.webp" srcset="img/moi_small.webp 480w" sizes="50vw"
-                alt="David Levast développeur web freelance en Normandie" class="rounded-circle img-thumbnail shadow"
-                data-holder-rendered="true" />
+            <img src="img/moi.webp" srcset="img/moi_small.webp 480w" sizes="50vw" alt="David Levast développeur web freelance en Normandie" class="rounded-circle img-thumbnail shadow" data-holder-rendered="true" />
         </div>
         <div class="head_banner">
             <h1>Développeur Web freelance</h1>
             <h2>Créateur de site web professionnel</h2>
             <h3>David Levast</h3>
-            <a href="docs/CV_david_levast.pdf" class="btn btn-sm button1" aria-label="téléchargement cv"><i
-                    class="far fa-file-pdf"></i>Télécharger le
+            <a href="docs/CV_david_levast.pdf" class="btn btn-sm button1" aria-label="téléchargement cv"><i class="far fa-file-pdf"></i>Télécharger le
                 CV</a>
         </div>
     </section>
@@ -135,52 +128,44 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-label="progressbar" aria-valuenow="85"
-                                aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                            <div class="progress-bar" role="progressbar" aria-label="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
                                 <h3>HTML 85%</h3>
                             </div>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-label="progressbar" aria-valuenow="85"
-                                aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                            <div class="progress-bar" role="progressbar" aria-label="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
                                 <h3>CSS 85%</h3>
                             </div>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-label="progressbar" aria-valuenow="75"
-                                aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                            <div class="progress-bar" role="progressbar" aria-label="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
                                 <h3>JAVASCRIPT 75%</h3>
                             </div>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-label="progressbar" aria-valuenow="65"
-                                aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                            <div class="progress-bar" role="progressbar" aria-label="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
                                 <h3>PHP 65%</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-label="progressbar" aria-valuenow="65"
-                                aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                            <div class="progress-bar" role="progressbar" aria-label="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
                                 <h3>VUEJS 65%</h3>
                             </div>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-label="progressbar" aria-valuenow="60"
-                                aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                            <div class="progress-bar" role="progressbar" aria-label="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
                                 <h3>NODEJS 60%</h3>
                             </div>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-label="progressbar" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                            <div class="progress-bar" role="progressbar" aria-label="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
                                 <h3>BOOTSTRAP 70%</h3>
                             </div>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-label="progressbar" aria-valuenow="65"
-                                aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                            <div class="progress-bar" role="progressbar" aria-label="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
                                 <h3>SASS 65%</h3>
                             </div>
                         </div>
@@ -201,8 +186,7 @@
             </div>
             <div class="container" id="exp_responsive">
                 <div class="timeline">
-                    <div
-                        class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+                    <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
                         <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
                             <h3 class=" text-light">Développeur Web freelance</h3>
                             <h4 class=" text-light">Auto-entreprise</h4>
@@ -219,8 +203,7 @@
                             <time>13-09-2021 / Aujourd'hui</time>
                         </div>
                     </div>
-                    <div
-                        class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+                    <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
                         <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
                             <h3 class=" text-light">Formation développeur Web junior</h3>
                             <h4 class=" text-light">Openclassrooms - Obtention du titre RNCP Bac+2</h4>
@@ -236,15 +219,13 @@
                             </ul>
                         </div>
                         <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
-                            <img src="img/oc-logo.webp" class="img-fluid" sizes="(min-width: 12vw) 12vw"
-                                alt="lpmicro-logo">
+                            <img src="img/oc-logo.webp" class="img-fluid" sizes="(min-width: 12vw) 12vw" alt="lpmicro-logo">
                         </div>
                         <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
                             <time>24-06-2020 / 27-07-2021</time>
                         </div>
                     </div>
-                    <div
-                        class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+                    <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
                         <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
                             <h3 class=" text-light">Maintenance & installation informatique</h3>
                             <h4 class=" text-light">LPMICRO27 : Auto-entreprise</h4>
@@ -256,15 +237,13 @@
                             </ul>
                         </div>
                         <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
-                            <img src="img/lpmicro-logo.webp" class="img-fluid" sizes="(min-width: 12vw) 12vw"
-                                alt="lpmicro-logo">
+                            <img src="img/lpmicro-logo.webp" class="img-fluid" sizes="(min-width: 12vw) 12vw" alt="lpmicro-logo">
                         </div>
                         <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
                             <time>06-2014 / 12-2018</time>
                         </div>
                     </div>
-                    <div
-                        class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+                    <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
                         <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
                             <h3 class=" text-light">Vendeur produits & services</h3>
                             <h4 class=" text-light">Carrefour : secteur informatique</h4>
@@ -276,8 +255,7 @@
                             </ul>
                         </div>
                         <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
-                            <img src="img/carrefour-logo.webp" class="img-fluid" sizes="(min-width: 12vw) 12vw"
-                                alt="lpmicro-logo">
+                            <img src="img/carrefour-logo.webp" class="img-fluid" sizes="(min-width: 12vw) 12vw" alt="lpmicro-logo">
                         </div>
                         <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
                             <time>05-2003 / Aujourd'hui</time>
@@ -299,8 +277,7 @@
                     <figure class="zoom-overlay">
                         <img class="img-thumbnail" src="img/ohmyfood.webp" alt="portfolio david levast ohmyfood">
                         <div class="overlay_top">
-                            <a href="https://dasyx.github.io/ohmyfood/" class="icon_top_display" target="_blank"
-                                rel="noopener">
+                            <a href="https://dasyx.github.io/ohmyfood/" class="icon_top_display" target="_blank" rel="noopener">
                                 <p class="text_top"></p>
                                 <p class="text_top_second"></p>
                                 <i class="bi bi-arrow-right-circle"></i>
@@ -321,19 +298,15 @@
                         </div>
                     </figure>
                     <div class="low-res_display">
-                        <a href="https://dasyx.github.io/ohmyfood/" class="btn btn-light lw_res_site"
-                            aria-label="affichage site github" target="_blank" rel="noopener">Voir le site</a>
-                        <a href="https://github.com/dasyx/ohmyfood/" class="btn btn-light lw_res_code"
-                            aria-label="affichage code github" target="_blank" rel="noopener">Voir le code</a>
+                        <a href="https://dasyx.github.io/ohmyfood/" class="btn btn-light lw_res_site" aria-label="affichage site github" target="_blank" rel="noopener">Voir le site</a>
+                        <a href="https://github.com/dasyx/ohmyfood/" class="btn btn-light lw_res_code" aria-label="affichage code github" target="_blank" rel="noopener">Voir le code</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                     <figure class="zoom-overlay">
-                        <img class="img-thumbnail" src="img/chouette_agence.webp"
-                            alt="portfolio david levast chouette agence">
+                        <img class="img-thumbnail" src="img/chouette_agence.webp" alt="portfolio david levast chouette agence">
                         <div class="overlay_top">
-                            <a href="https://dasyx.github.io/chouette_agence_new/" class="icon_top_display"
-                                target="_blank" rel="noopener">
+                            <a href="https://dasyx.github.io/chouette_agence_new/" class="icon_top_display" target="_blank" rel="noopener">
                                 <p class="text_top"></p>
                                 <p class="text_top_second"></p>
                                 <i class="bi bi-arrow-right-circle"></i>
@@ -354,11 +327,9 @@
                         </div>
                     </figure>
                     <div class="low-res_display">
-                        <a href="https://dasyx.github.io/chouette_agence_new/" class="btn btn-light lw_res_site"
-                            aria-label="affichage site github" target="_blank" rel="noopener">Voir le
+                        <a href="https://dasyx.github.io/chouette_agence_new/" class="btn btn-light lw_res_site" aria-label="affichage site github" target="_blank" rel="noopener">Voir le
                             site</a>
-                        <a href="https://github.com/dasyx/chouette_agence_new/" class="btn btn-light"
-                            aria-label="affichage code github" target="_blank" rel="noopener">Voir le
+                        <a href="https://github.com/dasyx/chouette_agence_new/" class="btn btn-light" aria-label="affichage code github" target="_blank" rel="noopener">Voir le
                             code</a>
                     </div>
                 </div>
@@ -366,16 +337,14 @@
                     <figure class="zoom-overlay">
                         <img class="img-thumbnail" src="img/orinoco.webp" alt="portfolio david levast orinoco">
                         <div class="overlay_top">
-                            <a href="https://dasyx.github.io/orinoco/" class="icon_top_display" target="_blank"
-                                rel="noopener">
+                            <a href="https://dasyx.github.io/orinoco/" class="icon_top_display" target="_blank" rel="noopener">
                                 <p class="text_top"></p>
                                 <p class="text_top_second"></p>
                                 <i class="bi bi-arrow-right-circle"></i>
                             </a>
                         </div>
                         <div class="overlay_bottom">
-                            <a href="https://github.com/dasyx/orinoco/" class="icon_bottom_display" target="_blank"
-                                rel="noopener">
+                            <a href="https://github.com/dasyx/orinoco/" class="icon_bottom_display" target="_blank" rel="noopener">
                                 <div class="icon_bottom_display">
                                     <p class="text_techno1"></p>
                                     <p class="text_techno2"></p>
@@ -389,11 +358,9 @@
                         </div>
                     </figure>
                     <div class="low-res_display">
-                        <a href="https://dasyx.github.io/orinoco/" class="btn btn-light lw_res_site"
-                            aria-label="affichage site github" target="_blank" rel="noopener">Voir le
+                        <a href="https://dasyx.github.io/orinoco/" class="btn btn-light lw_res_site" aria-label="affichage site github" target="_blank" rel="noopener">Voir le
                             site</a>
-                        <a href="https://github.com/dasyx/orinoco/" class="btn btn-light"
-                            aria-label="affichage code github" target="_blank" rel="noopener">Voir le
+                        <a href="https://github.com/dasyx/orinoco/" class="btn btn-light" aria-label="affichage code github" target="_blank" rel="noopener">Voir le
                             code</a>
                     </div>
                 </div>
@@ -401,16 +368,14 @@
                     <figure class="zoom-overlay">
                         <img class="img-thumbnail" src="img/so_peckoko.webp" alt="portfolio david levast so_peckoko">
                         <div class="overlay_top">
-                            <a href="https://dasyx.github.io/so_peckoko/" class="icon_top_display" target="_blank"
-                                rel="noopener">
+                            <a href="https://dasyx.github.io/so_peckoko/" class="icon_top_display" target="_blank" rel="noopener">
                                 <p class="text_top"></p>
                                 <p class="text_top_second"></p>
                                 <i class="bi bi-arrow-right-circle"></i>
                             </a>
                         </div>
                         <div class="overlay_bottom">
-                            <a href="https://github.com/dasyx/so_peckoko/" class="icon_bottom_display" target="_blank"
-                                rel="noopener">
+                            <a href="https://github.com/dasyx/so_peckoko/" class="icon_bottom_display" target="_blank" rel="noopener">
                                 <div class="icon_bottom_display">
                                     <p class="text_techno1"></p>
                                     <p class="text_techno2"></p>
@@ -424,11 +389,9 @@
                         </div>
                     </figure>
                     <div class="low-res_display">
-                        <a href="https://dasyx.github.io/so_peckoko/" class="btn btn-light lw_res_site"
-                            aria-label="affichage site github" target="_blank" rel="noopener">Voir le
+                        <a href="https://dasyx.github.io/so_peckoko/" class="btn btn-light lw_res_site" aria-label="affichage site github" target="_blank" rel="noopener">Voir le
                             site</a>
-                        <a href="https://github.com/dasyx/so_pekocko/" class="btn btn-light"
-                            aria-label="affichage code github" target="_blank" rel="noopener">Voir le
+                        <a href="https://github.com/dasyx/so_pekocko/" class="btn btn-light" aria-label="affichage code github" target="_blank" rel="noopener">Voir le
                             code</a>
                     </div>
                 </div>
@@ -436,16 +399,14 @@
                     <figure class="zoom-overlay">
                         <img class="img-thumbnail" src="img/groupomania.webp" alt="portfolio david levast groupomania">
                         <div class="overlay_top">
-                            <a href="https://dasyx.github.io/groupomania/" class="icon_top_display" target="_blank"
-                                rel="noopener">
+                            <a href="https://dasyx.github.io/groupomania/" class="icon_top_display" target="_blank" rel="noopener">
                                 <p class="text_top"></p>
                                 <p class="text_top_second"></p>
                                 <i class="bi bi-arrow-right-circle"></i>
                             </a>
                         </div>
                         <div class="overlay_bottom">
-                            <a href="https://github.com/dasyx/groupomania/" class="icon_bottom_display" target="_blank"
-                                rel="noopener">
+                            <a href="https://github.com/dasyx/groupomania/" class="icon_bottom_display" target="_blank" rel="noopener">
                                 <div class="icon_bottom_display">
                                     <p class="text_techno1"></p>
                                     <p class="text_techno2"></p>
@@ -459,29 +420,24 @@
                         </div>
                     </figure>
                     <div class="low-res_display">
-                        <a href="https://dasyx.github.io/groupomania/" class="btn btn-light lw_res_site "
-                            aria-label="affichage site github" target="_blank" rel="noopener">Voir le
+                        <a href="https://dasyx.github.io/groupomania/" class="btn btn-light lw_res_site " aria-label="affichage site github" target="_blank" rel="noopener">Voir le
                             site</a>
-                        <a href="https://github.com/dasyx/groupomania/" class="btn btn-light"
-                            aria-label="affichage code github" target="_blank" rel="noopener">Voir le
+                        <a href="https://github.com/dasyx/groupomania/" class="btn btn-light" aria-label="affichage code github" target="_blank" rel="noopener">Voir le
                             code</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                     <figure class="zoom-overlay">
-                        <img class="img-thumbnail" src="img/travel_agency.webp"
-                            alt="portfolio david levast travel agency">
+                        <img class="img-thumbnail" src="img/travel_agency.webp" alt="portfolio david levast travel agency">
                         <div class="overlay_top">
-                            <a href="https://dasyx.github.io/projet_web/" class="icon_top_display" target="_blank"
-                                rel="noopener">
+                            <a href="https://dasyx.github.io/projet_web/" class="icon_top_display" target="_blank" rel="noopener">
                                 <p class="text_top"></p>
                                 <p class="text_top_second"></p>
                                 <i class="bi bi-arrow-right-circle"></i>
                             </a>
                         </div>
                         <div class="overlay_bottom">
-                            <a href="https://github.com/dasyx/projet_web/" class="icon_bottom_display" target="_blank"
-                                rel="noopener">
+                            <a href="https://github.com/dasyx/projet_web/" class="icon_bottom_display" target="_blank" rel="noopener">
                                 <div class="icon_bottom_display">
                                     <p class="text_techno1"></p>
                                     <p class="text_techno2"></p>
@@ -495,11 +451,9 @@
                         </div>
                     </figure>
                     <div class="low-res_display">
-                        <a href="https://dasyx.github.io/projet_web/" class="btn btn-light lw_res_site"
-                            aria-label="affichage site github" target="_blank" rel="noopener">Voir le
+                        <a href="https://dasyx.github.io/projet_web/" class="btn btn-light lw_res_site" aria-label="affichage site github" target="_blank" rel="noopener">Voir le
                             site</a>
-                        <a href="https://github.com/dasyx/projet_web/" class="btn btn-light"
-                            aria-label="affichage code github" target="_blank" rel="noopener">Voir le
+                        <a href="https://github.com/dasyx/projet_web/" class="btn btn-light" aria-label="affichage code github" target="_blank" rel="noopener">Voir le
                             code</a>
                     </div>
                 </div>
@@ -530,9 +484,7 @@
                 <div class="col-sm-4">
                     <ul class="list-unstyled">
                         <li>
-                            <a class="text-decoration-none myRipple"
-                                href="https://www.linkedin.com/in/david-levast-9553881aa" target="_blank"
-                                rel="noopener">
+                            <a class="text-decoration-none myRipple" href="https://www.linkedin.com/in/david-levast-9553881aa" target="_blank" rel="noopener">
                                 <span class="bi bi-linkedin">
                                     <p>Linkedin</p>
                                 </span>
@@ -543,8 +495,7 @@
                 <div class="col-sm-4">
                     <ul class="list-unstyled">
                         <li>
-                            <a class="text-decoration-none" href="https://twitter.com/davidlevast27" target="_blank"
-                                rel="noopener">
+                            <a class="text-decoration-none" href="https://twitter.com/davidlevast27" target="_blank" rel="noopener">
                                 <span class="bi bi-twitter">
                                     <p>Twitter</p>
                                 </span>
@@ -566,18 +517,16 @@
             </div>
         </div>
         <div id="contactDisplay">
-            <?php include 'php/contact.php';?>
+            <?php include "php/contact.php" ?>
         </div>
         <button class="scrollToTopBtn">
             <i class="bi bi-chevron-double-up"></i>
         </button>
     </footer>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous" async>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous" async>
 </script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
-    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous" async>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous" async>
 </script>
 
 </html>

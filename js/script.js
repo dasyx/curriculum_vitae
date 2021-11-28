@@ -175,10 +175,44 @@ document.addEventListener("scroll", handleScroll);
 
 
 // Script animant l'affichage du formulaire de contact
-
 var contact = document.getElementById("contactDisplay");
 
 function displayContact() {
     contact.style.display = "block";
     window.scrollBy(0,800);
 }
+
+// Script qui va récupérer les informations de saisies utilisateur
+// et empêchera la page de s'actualiser
+$(function () {
+    
+  $('#contact-form').submit(function(e) {
+      e.preventDefault();
+      $('.comments').empty();
+      var postdata = $('#contact-form').serialize();
+      
+      $.ajax({
+          type: 'POST',
+          url: 'php/validation.php',
+          data: postdata,
+          dataType: 'json',
+          success: function(json) {
+               
+              if(json.isSuccess) 
+              {
+                  $('#contact-form').append("<p class='thank-you'>Votre message a bien été envoyé. Merci de m'avoir contacté :)</p>");
+                  $('#contact-form')[0].reset();
+              }
+              else
+              {
+                  $('#firstname + .comments').html(json.firstnameError);
+                  $('#name + .comments').html(json.nameError);
+                  $('#email + .comments').html(json.emailError);
+                  $('#phone + .comments').html(json.phoneError);
+                  $('#message + .comments').html(json.messageError);
+              }                
+          }
+      });
+  });
+
+})
