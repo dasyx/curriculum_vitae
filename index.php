@@ -95,7 +95,7 @@
                     <p id="bio_separate"></p>
                     <p>Je me tiendrai à vos côtés pour réaliser vos rêves d'entreprendre, de créer, d'avancer; nous mettrons en scène vos idées de <strong>création de site web</strong>, nous apprendrons ensemble l'un de l'autre, nous concrétiserons et optimiserons vos projets actuels.</p>
                     <p>Exprimez-moi vos souhaits quand vous en avez l'envie, je serai à l'écoute.</p>
-                    <p>Pour faire connaissance, c'est <a id="bio_contact" href="#contact">ici </a>!
+                    <p>Pour faire connaissance, c'est <a id="bio_contact" href="#contact">ici </a>.
                 </div>
             </div>
         </div>
