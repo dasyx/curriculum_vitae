@@ -5,7 +5,7 @@
     <title>Création de site web en Normandie</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="David Levast, développeur web freelance Javascript, indépendant, sérieux et passionné, à la recherche de nouvelles opportunités en Normandie, France, je m'occuperai de la création de votre site, j'aurai à coeur d'optimiser un site internet existant, d'améliorer son référencement naturel. Si vous cherchez un développeur indépendant, contactez-moi">
+    <meta name="description" content="Développeur web freelance Javascript, sérieux et passionné, à la recherche de nouvelles opportunités en Normandie, France, je m'occuperai de la création de votre site, j'aurai à coeur d'optimiser un site internet existant, d'améliorer son référencement naturel. Si vous cherchez un développeur indépendant, contactez-moi">
     <meta name="robots" content="index, follow">
     <!-- Open Graph data -->
     <!-- Facebook Meta tags-->
@@ -15,7 +15,7 @@
     <meta property="og:url" content="https://www.davidlevast.fr" />
     <meta property="og:image:width" content="640" />
     <meta property="og:image:height" content="480" />
-    <meta property="og:image" content="https://aprc.it/api/640x480/http://davidlevast.fr/" />
+    <meta property="og:image" content="https://davidlevast.fr/img/miniature.png" />
     <meta property="og:description" content="Développez votre identité visuelle et professionnelle sur le web" />
     <meta property="og:site_name" content="Portfolio David Levast" />
     <meta property="og:type" content="website" />
@@ -41,7 +41,7 @@
 
         gtag('config', 'G-H3WGH5P6V6');
     </script>
-    <script src="js/script.js" async></script>
+    <script src="js/script.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="15">
